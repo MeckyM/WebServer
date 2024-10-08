@@ -1,0 +1,21 @@
+CREATE DATABASE Agenda(
+);
+
+CREATE TABLE Contatos (
+	id_Contato SERIAL PRIMARY KEY,
+	Nome VARCHAR(100) NOT NULL,
+	Endereco VARCHAR(255) NOT NULL,
+	Telefone VARCHAR(15) NOT NULL,
+	Email VARCHAR(100) NOT NULL,
+	Celular VARCHAR(15) NOT NULL,
+	IDFK_Contatos int, foreign key (IDFK_Contatos ) references Usuario (id)
+);
+
+CREATE TABLE Usuario (
+	id SERIAL PRIMARY KEY,
+	NomeUsuario VARCHAR(100) ,
+	Senha VARCHAR(255) NOT NULL,
+	Email VARCHAR(100) NOT NULL,
+	Login VARCHAR(50) UNIQUE NOT NULL,
+	Ativo BOOLEAN NOT NULL
+);
