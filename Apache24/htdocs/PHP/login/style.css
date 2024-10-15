@@ -1,62 +1,91 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
-.container{
-    background-color: #ffffff;
+header {
+    width: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-    & .main-login{
+    & nav {
+        & ul {
+            display: flex;
+            list-style: none;
+        }
+
+        & li {
+            padding: 30px;
+        }
+    }
+}
+
+.container {
+    background-color: #FFFFFF;
+    height: 90vh;
+    position: relative;
+
+    & .main-login {
         width: 50%;
-        height: 100vh;
-        background-color: rgba(83, 11, 99, 0.582);
+        height: 40vh;
+        position: absolute;
+        padding-top: 15px;
+        top: 25%;
+        left: 25%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    
-        & .textfield{
+        background: linear-gradient(180deg, #F2F0E9, #F2E9F2);
+        border-radius: 10px;
+        box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.582);
+
+        & .textfield {
             width: 60%;
-            display:flex;
+            display: flex;
             flex-direction: column;
             align-items: flex-start;
             margin: 0 auto;
-    
-            & input{
+
+            & input {
                 width: 100%;
                 border: none;
-                border-radius: 10px;
-                padding: 15px;
-                background-color: #575757;
-                color: #ffffff;
+                border-radius: 5px;
+                padding: 10px;
+                background-color: #ffffff;
+                color: #000000;
                 font-size: 12pt;
-                box-shadow: #02020256;
                 outline: none;
             }
-    
+
             & label {
                 color: #000000;
-                margin-bottom:  10px;
+                margin-top: 15px;
             }
         }
-    
-        .buttons{
+
+        .buttons {
             width: 60%;
-            height: 10%;  
+            height: 25%;
             margin-top: 30px;
 
-            & .login{
+            & .login {
                 margin: 0 auto;
-                width:95%;
+                width: 95%;
 
-                & .btn-login{
+                & .btn-login {
                     width: 45%;
                     height: 50%;
                     border: none;
                     border-radius: 8px;
                     font-weight: 800;
-                    letter-spacing: 3px;
+                    /* letter-spacing: 3px; */
                     color: #2b134b;
                     background-color: #ffffff;
                     cursor: pointer;
@@ -64,37 +93,34 @@
                     float: left;
                 }
 
-                & .btn-login:hover{
+                & .btn-login:hover {
                     background-color: rgba(0, 0, 0, 0.11);
                     color: #ffffff;
                 }
-            
-                & .btn-cadastro{
+
+                & .btn-cadastro {
                     width: 45%;
                     height: 50%;
                     border: none;
                     border-radius: 8px;
                     font-weight: 800;
-                    letter-spacing: 3px;
+                    /* letter-spacing: 3px; */
                     color: #2b134b;
                     background-color: #ffffff;
                     cursor: pointer;
                     box-shadow: 0px 10px 40px -12px #00000052;
                     float: right;
-                }      
+                }
 
-                & .btn-cadastro:hover{
+                & .btn-cadastro:hover {
                     background-color: rgba(0, 0, 0, 0.11);
                     color: #ffffff;
                 }
-        
-                & input::placeholder{
+
+                & input::placeholder {
                     color: #ffffff;
                 }
-            }           
+            }
         }
-    }      
+    }
 }
-
-
-
