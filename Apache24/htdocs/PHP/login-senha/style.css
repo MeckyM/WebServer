@@ -13,11 +13,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #f8f8f8;
 
     & nav {
         & ul {
             display: flex;
             list-style: none;
+            cursor: pointer;
         }
 
         & li {
@@ -27,7 +29,7 @@ header {
 }
 
 .container {
-    background-color: #FFFFFF;
+    background-color: #f8f8f8;
     height: 90vh;
     position: relative;
 
@@ -58,8 +60,8 @@ header {
                 border: none;
                 border-radius: 5px;
                 padding: 10px;
-                background-color: #ffffff;
-                color: #000000;
+                background-color: #0000005e;
+                color: #fafafa;
                 font-size: 12pt;
                 outline: none;
             }
@@ -71,51 +73,50 @@ header {
         }
 
         .buttons {
-            width: 60%;
+            width: 50%;
             height: 25%;
             margin-top: 30px;
+            margin-left: 27%;
 
             & .login {
                 margin: 0 auto;
                 width: 95%;
 
-                & .btn-login {
+                & .btn-confirm {
                     width: 45%;
                     height: 50%;
                     border: none;
                     border-radius: 8px;
                     font-weight: 800;
-                    /* letter-spacing: 3px; */
                     color: #2b134b;
                     background-color: #ffffff;
                     cursor: pointer;
                     box-shadow: 0px 10px 40px -12px #00000052;
-                    float: left;
                 }
 
-                & .btn-login:hover {
+                & .btn-confirm:hover {
                     background-color: rgba(0, 0, 0, 0.11);
                     color: #ffffff;
                 }
 
-                & .btn-cadastro {
+                /* & .btn-cadastro {
                     width: 45%;
                     height: 50%;
                     border: none;
                     border-radius: 8px;
                     font-weight: 800;
                     /* letter-spacing: 3px; */
-                    color: #2b134b;
+                    /* color: #2b134b;
                     background-color: #ffffff;
                     cursor: pointer;
                     box-shadow: 0px 10px 40px -12px #00000052;
                     float: right;
-                }
+                } */
 
-                & .btn-cadastro:hover {
+                /* & .btn-cadastro:hover {
                     background-color: rgba(0, 0, 0, 0.11);
                     color: #ffffff;
-                }
+                } */
 
                 & input::placeholder {
                     color: #ffffff;

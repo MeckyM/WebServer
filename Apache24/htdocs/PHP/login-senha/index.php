@@ -33,8 +33,8 @@
                 </div> -->
                 <div class="buttons">
                     <div class="login">
-                        <button class="btn-login" type="submit" name="Entrar" value="Entrar">Entrar</button>
-                        <button class="btn-cadastro" type="submit" name="Cadastro" value="Entrar">Cadastre-se</button>
+                        <button class="btn-confirm" type="submit" name="confirmar" value="confirmar">confirmar</button>
+                        <!-- <button class="btn-cadastro" type="submit" name="Cadastro" value="Entrar">Cadastre-se</button> -->
                     </div>
                 </div>
             </div>

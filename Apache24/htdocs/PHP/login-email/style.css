@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    width: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f8f8;
+
+    & nav {
+        & ul {
+            display: flex;
+            list-style: none;
+            cursor: pointer;
+        }
+
+        & li {
+            padding: 30px;
+
+            & a{
+                color: inherit;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.container {
+    background-color: #f8f8f8;
+    height: 90vh;
+    position: relative;
+
+    & .main-login {
+        width: 50%;
+        height: 45vh;
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(180deg, #F2F0E9, #F2E9F2);
+        border-radius: 10px;
+        box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.582);
+
+        & img {
+            position: absolute;
+            top: 30%;
+        }
+
+        & label {
+            color: #000000;
+            float: right;
+            width: 59%;
+            position: absolute;
+            top: 45%;
+        }
+
+        & .textfield {
+            width: 60%;
+            display: flex;
+            position: absolute;
+            top: 50%;
+
+            & input {
+                width: 100%;
+                border: none;
+                border-radius: 5px;
+                padding: 10px;
+                background-color: #0000005e;
+                color: #fafafa;
+                font-size: 12pt;
+                outline: none;
+            }
+
+            & .btn-confirm {
+                width: 40%;
+                margin-left: 20px;
+                border: none;
+                border-radius: 8px;
+                font-weight: 500;
+                color: #ffffff;
+                background-color: #0000005e;
+                cursor: pointer;
+                box-shadow: 0px 10px 40px -12px #00000052;
+            }
+
+            & .btn-confirm:hover {
+                background-color: rgba(0, 0, 0, 0.11);
+                color: #ffffff;
+            }
+        }
+
+        .buttons {
+            width: 50%;
+            height: 25%;
+            margin-top: 30px;
+            margin-left: 27%;
+        }
+    }
+
+    & footer{
+        height: 8%;
+        position: relative;
+        top: 93.1%;
+        background-color: #F2EEEE;
+
+        & .icons{
+
+            & a{
+                color: inherit;
+                text-decoration: none;
+                float: inline-end;
+                margin-right: 20px;
+                
+            }
+            & .email{
+                height: 28px;
+                width: 28px;
+                background-color: #F2EEEE;
+            }
+    
+            & .insta{
+                height: 28px;
+                width: 28px;
+                background-color: #F2EEEE;
+            }
+    
+            & .linkedin{
+                height: 28px;
+                width: 28px;
+                background-color: #F2EEEE;
+            }
+            
+        }
+        
+    }
+    
+}
+
