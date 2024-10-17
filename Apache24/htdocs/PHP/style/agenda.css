@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    height: 100vh;
+
+    & .header{
+        height: 63PX;
+        background-color: #f8f8f8;
+
+        & .pesquisa {
+            width: 50%;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: #D9D9D9;
+            color: #fafafa;
+            font-size: 12pt;
+            outline: none;
+            position: absolute;
+            top: 8px;
+            left: 25%;
+        }
+    }
+
+    & .contato{
+        background-color: #f8f8f8;
+        height: 87vh;
+    }
+
+    & footer{
+        height: 6.3vh;
+        background-color: #f2eeeecb;
+        
+        & .opcoes{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            justify-content: space-around;
+            position: relative;
+            top: 28%;
+        }
+    }
+
+    & table{
+        background-color: rgb(206, 137, 137);
+        width: 100%;
+
+        & td{
+            text-align: center;
+        }
+    }
+}

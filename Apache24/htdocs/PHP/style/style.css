@@ -48,7 +48,7 @@ header {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: linear-gradient(180deg, #F2F0E9, #F2E9F2);
+        background: linear-gradient(180deg, #f3f0e3, #f3e8f3);
         border-radius: 10px;
         box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.582);
 
@@ -71,8 +71,8 @@ header {
             position: absolute;
             top: 50%;
 
-            & input {
-                width: 100%;
+            & .usuario {
+                width: 160%;
                 border: none;
                 border-radius: 5px;
                 padding: 10px;
@@ -84,7 +84,7 @@ header {
 
             & .btn-confirm {
                 width: 40%;
-                margin-left: 20px;
+                margin-left: 10px;
                 border: none;
                 border-radius: 8px;
                 font-weight: 500;
@@ -95,6 +95,51 @@ header {
             }
 
             & .btn-confirm:hover {
+                background-color: rgba(0, 0, 0, 0.11);
+                color: #ffffff;
+            }
+
+            & .btn-cadastro {
+                width: 40%;
+                margin-left: 10px;
+                border: none;
+                border-radius: 8px;
+                font-weight: 500;
+                color: #ffffff;
+                background-color: #0000005e;
+                cursor: pointer;
+                box-shadow: 0px 10px 40px -12px #00000052;
+            }
+
+            & .btn-cadastro:hover {
+                background-color: rgba(0, 0, 0, 0.11);
+                color: #ffffff;
+            }
+
+            & .senha {
+                width: 160%;
+                border: none;
+                border-radius: 5px;
+                padding: 10px;
+                background-color: #0000005e;
+                color: #fafafa;
+                font-size: 12pt;
+                outline: none;
+            }
+
+            & .btn-confirm-senha {
+                width: 40%;
+                margin-left: 10px;
+                border: none;
+                border-radius: 8px;
+                font-weight: 500;
+                color: #ffffff;
+                background-color: #0000005e;
+                cursor: pointer;
+                box-shadow: 0px 10px 40px -12px #00000052;
+            }
+
+            & .btn-confirm-senha:hover {
                 background-color: rgba(0, 0, 0, 0.11);
                 color: #ffffff;
             }
@@ -112,9 +157,14 @@ header {
         height: 8%;
         position: relative;
         top: 93.1%;
-        background-color: #F2EEEE;
+        background-color: #f2eeeecb;
 
         & .icons{
+            height: 40%;
+            width: 8.4%;
+            float: inline-end;
+            position: relative;
+            top: 30%;
 
             & a{
                 color: inherit;
@@ -126,19 +176,19 @@ header {
             & .email{
                 height: 28px;
                 width: 28px;
-                background-color: #F2EEEE;
+                background-color: #f2eeeecb;
             }
     
             & .insta{
                 height: 28px;
                 width: 28px;
-                background-color: #F2EEEE;
+                background-color: #f2eeeecb;
             }
     
             & .linkedin{
                 height: 28px;
                 width: 28px;
-                background-color: #F2EEEE;
+                background-color: #f2eeeecb;
             }
             
         }

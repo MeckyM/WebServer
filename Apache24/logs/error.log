@@ -403,3 +403,37 @@ PHP Warning:  PHP Startup: Unable to load dynamic library 'php_ssh2.dll' (tried:
 PHP Warning:  PHP Startup: Unable to load dynamic library 'php_curl.dll' (tried: C:\\WebServer\\PHP-8.3\\ext\\php_curl.dll (N\xc3\xa3o foi poss\xc3\xadvel encontrar o m\xc3\xb3dulo especificado), C:\\WebServer\\PHP-8.3\\ext\\php_php_curl.dll.dll (N\xc3\xa3o foi poss\xc3\xadvel encontrar o m\xc3\xb3dulo especificado)) in Unknown on line 0
 PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
 [Wed Oct 16 14:10:02.549245 2024] [mpm_winnt:notice] [pid 12092:tid 344] AH00354: Child: Starting 64 worker threads.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::45b3:f43b:e3e:9ff7. Set the 'ServerName' directive globally to suppress this message
+[Thu Oct 17 14:28:52.714793 2024] [core:warn] [pid 18420:tid 320] AH00098: pid file C:/WebServer/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\WebServer\\PHP-8.3\\ext\\curl (N\xc3\xa3o foi poss\xc3\xadvel encontrar o m\xc3\xb3dulo especificado), C:\\WebServer\\PHP-8.3\\ext\\php_curl.dll (N\xc3\xa3o foi poss\xc3\xadvel encontrar o m\xc3\xb3dulo especificado)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_ssh2.dll' (tried: C:\\WebServer\\PHP-8.3\\ext\\php_ssh2.dll (N\xc3\xa3o foi poss\xc3\xadvel encontrar o m\xc3\xb3dulo especificado), C:\\WebServer\\PHP-8.3\\ext\\php_php_ssh2.dll.dll (N\xc3\xa3o foi poss\xc3\xadvel encontrar o m\xc3\xb3dulo especificado)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_curl.dll' (tried: C:\\WebServer\\PHP-8.3\\ext\\php_curl.dll (N\xc3\xa3o foi poss\xc3\xadvel encontrar o m\xc3\xb3dulo especificado), C:\\WebServer\\PHP-8.3\\ext\\php_php_curl.dll.dll (N\xc3\xa3o foi poss\xc3\xadvel encontrar o m\xc3\xb3dulo especificado)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Thu Oct 17 14:28:54.740216 2024] [mpm_winnt:notice] [pid 18420:tid 320] AH00455: Apache/2.4.57 (Win64) PHP/8.3.11 configured -- resuming normal operations
+[Thu Oct 17 14:28:54.740216 2024] [mpm_winnt:notice] [pid 18420:tid 320] AH00456: Apache Lounge VS16 Server built: Apr 14 2023 09:42:54
+[Thu Oct 17 14:28:54.740216 2024] [core:notice] [pid 18420:tid 320] AH00094: Command line: 'C:\\WebServer\\Apache24\\bin\\httpd.exe -d C:/WebServer/Apache24'
+[Thu Oct 17 14:28:54.742206 2024] [mpm_winnt:notice] [pid 18420:tid 320] AH00418: Parent: Created child process 18240
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::45b3:f43b:e3e:9ff7. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::45b3:f43b:e3e:9ff7. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\WebServer\\PHP-8.3\\ext\\curl (N\xc3\xa3o foi poss\xc3\xadvel encontrar o m\xc3\xb3dulo especificado), C:\\WebServer\\PHP-8.3\\ext\\php_curl.dll (N\xc3\xa3o foi poss\xc3\xadvel encontrar o m\xc3\xb3dulo especificado)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_ssh2.dll' (tried: C:\\WebServer\\PHP-8.3\\ext\\php_ssh2.dll (N\xc3\xa3o foi poss\xc3\xadvel encontrar o m\xc3\xb3dulo especificado), C:\\WebServer\\PHP-8.3\\ext\\php_php_ssh2.dll.dll (N\xc3\xa3o foi poss\xc3\xadvel encontrar o m\xc3\xb3dulo especificado)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_curl.dll' (tried: C:\\WebServer\\PHP-8.3\\ext\\php_curl.dll (N\xc3\xa3o foi poss\xc3\xadvel encontrar o m\xc3\xb3dulo especificado), C:\\WebServer\\PHP-8.3\\ext\\php_php_curl.dll.dll (N\xc3\xa3o foi poss\xc3\xadvel encontrar o m\xc3\xb3dulo especificado)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Thu Oct 17 14:28:54.938405 2024] [mpm_winnt:notice] [pid 18240:tid 332] AH00354: Child: Starting 64 worker threads.
+[Thu Oct 17 15:54:39.367333 2024] [php:error] [pid 18240:tid 1348] [client 127.0.0.1:53949] script 'C:/WebServer/Apache24/htdocs/agedna.php' not found or unable to stat, referer: http://localhost/
+[Thu Oct 17 15:54:40.426811 2024] [php:error] [pid 18240:tid 1348] [client 127.0.0.1:53949] script 'C:/WebServer/Apache24/htdocs/agedna.php' not found or unable to stat, referer: http://localhost/
+[Thu Oct 17 15:54:40.629654 2024] [php:error] [pid 18240:tid 1348] [client 127.0.0.1:53949] script 'C:/WebServer/Apache24/htdocs/agedna.php' not found or unable to stat, referer: http://localhost/
+[Thu Oct 17 16:18:24.464477 2024] [mpm_winnt:notice] [pid 18420:tid 320] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Oct 17 16:18:26.484573 2024] [mpm_winnt:notice] [pid 18240:tid 332] AH00364: Child: All worker threads have exited.
+[Thu Oct 17 16:18:26.521907 2024] [mpm_winnt:notice] [pid 18420:tid 320] AH00430: Parent: Child process 18240 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::45b3:f43b:e3e:9ff7. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:\\WebServer\\PHP-8.3\\ext\\curl (N\xc3\xa3o foi poss\xc3\xadvel encontrar o m\xc3\xb3dulo especificado), C:\\WebServer\\PHP-8.3\\ext\\php_curl.dll (N\xc3\xa3o foi poss\xc3\xadvel encontrar o m\xc3\xb3dulo especificado)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_ssh2.dll' (tried: C:\\WebServer\\PHP-8.3\\ext\\php_ssh2.dll (N\xc3\xa3o foi poss\xc3\xadvel encontrar o m\xc3\xb3dulo especificado), C:\\WebServer\\PHP-8.3\\ext\\php_php_ssh2.dll.dll (N\xc3\xa3o foi poss\xc3\xadvel encontrar o m\xc3\xb3dulo especificado)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_curl.dll' (tried: C:\\WebServer\\PHP-8.3\\ext\\php_curl.dll (N\xc3\xa3o foi poss\xc3\xadvel encontrar o m\xc3\xb3dulo especificado), C:\\WebServer\\PHP-8.3\\ext\\php_php_curl.dll.dll (N\xc3\xa3o foi poss\xc3\xadvel encontrar o m\xc3\xb3dulo especificado)) in Unknown on line 0
+PHP Warning:  Module "mysqli" is already loaded in Unknown on line 0
+[Thu Oct 17 16:18:28.037988 2024] [mpm_winnt:notice] [pid 19264:tid 332] AH00455: Apache/2.4.57 (Win64) PHP/8.3.11 configured -- resuming normal operations
+[Thu Oct 17 16:18:28.037988 2024] [mpm_winnt:notice] [pid 19264:tid 332] AH00456: Apache Lounge VS16 Server built: Apr 14 2023 09:42:54
+[Thu Oct 17 16:18:28.037988 2024] [core:notice] [pid 19264:tid 332] AH00094: Command line: 'C:\\WebServer\\Apache24\\bin\\httpd.exe -d C:/WebServer/Apache24'
+[Thu Oct 17 16:18:28.039988 2024] [mpm_winnt:notice] [pid 19264:tid 332] AH00418: Parent: Created child process 18640
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::45b3:f43b:e3e:9ff7. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::45b3:f43b:e3e:9ff7. Set the 'ServerName' directive globally to suppress this message

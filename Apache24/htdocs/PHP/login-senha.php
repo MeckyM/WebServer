@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-    <title>PHP</title>
+    <link rel="stylesheet" href="./style/style.css" media="screen" />
+    <title>login</title>
 </head>
 
 <body>
@@ -25,14 +25,14 @@
     </header>
 
     <section class="container">
-        <form method="post" action="script.php">
+        <form method="post" action="./script/script.php">
             <div class="main-login">
                 <img src="./src/Atenx 1.png">
 
                 <label for="usuario">Usuário</label>
                 <div class="textfield">
-                    <input type="text" name="usuario">
-                    <button class="btn-confirm" type="submit" name="confirmar" value="confirmar">confirmar</button>
+                    <input type="text" class="Senha">
+                    <button class="btn-confirm-senha" type="submit">confirmar</button>
                 </div>
 
             </div>
